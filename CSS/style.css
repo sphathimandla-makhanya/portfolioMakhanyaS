@@ -13,13 +13,14 @@ img{
     position: relative;
 }
 
+
 .side-navbar{
     height: 100vh;
     position: absolute;
     overflow: hidden;
     transition: width 0.3s linear;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-    width: 90px;
+    width: 100px;
 }
 .navbar-item #anchor{
     text-decoration: none;
@@ -57,4 +58,15 @@ img{
     left: 30%;
     margin-top: 1px;
     
+}
+
+#skills{
+    background-color: rgb(51, 58, 55);
+    height: 100vh;
+}
+
+
+.col img{
+    width: 150px;
+    border-radius: 50%;
 }
